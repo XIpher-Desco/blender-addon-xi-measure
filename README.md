@@ -1,34 +1,34 @@
-# XI Measure Blender Addon
+# XI Measure Blender アドオン
 
-This Blender addon measures the distance between two selected vertices in Edit Mode.
+このBlenderアドオンは、Edit Modeで選択された2つの頂点間の距離を測定します。
 
-## Features
+## 機能
 
-- Automatically measures distance when exactly two vertices are selected in Edit Mode.
-- Displays the Euclidean distance and differences in X, Y, Z global coordinates in the N-panel (Tool tab).
-- Copy buttons for each component (X, Y, Z) and all values to clipboard.
-- Useful as a precursor tool for equalizing distances in X, Y, Z axes separately.
+- Edit Modeで正確に2つの頂点が選択されたときに自動的に距離を測定。
+- Nパネル（Toolタブ）にユークリッド距離とX、Y、Zグローバル座標の差を表示。
+- 各コンポーネント（X、Y、Z）とすべての値のコピーボタンをクリップボードに提供。
+- X、Y、Z軸の距離を個別に均一化するための前段ツールとして有用。
 
-## Installation
+## インストール
 
-1. Download or clone this repository.
-2. In Blender, go to Edit > Preferences > Add-ons.
-3. Click "Install..." and select the folder containing `__init__.py`.
-4. Enable the addon "XI Measure".
+1. このリポジトリをダウンロードまたはクローン。
+2. BlenderでEdit > Preferences > Add-onsを開く。
+3. "Install..."をクリックし、`__init__.py`を含むフォルダを選択。
+4. アドオン"XI Measure"を有効化。
 
-## Usage
+## 使用方法
 
-1. Enter Edit Mode on a mesh object.
-2. Select exactly two vertices.
-3. The distances will automatically appear in the N-panel > Tool tab > XI Measure.
-4. Click "Copy" next to each value to copy individually, or "Copy All" for the full set.
+1. メッシュオブジェクトでEdit Modeに入る。
+2. 正確に2つの頂点を選択。
+3. 距離がNパネル > Toolタブ > XI Measureに自動的に表示される。
+4. 各値の横の"Copy"をクリックして個別にコピー、または"Copy All"ですべてをコピー。
 
-## Screenshots
+## スクリーンショット
 
-![Usage Example](img/image.png)
+![使用例](img/image.png)
 
-## Notes
+## 注意事項
 
-- Only works when exactly two vertices are selected.
-- Distances are calculated in global coordinates.
-- The panel updates automatically on selection changes.
+- 正確に2つの頂点が選択された場合のみ動作。
+- 距離はグローバル座標で計算。
+- パネルは選択変更時に自動的に更新。
