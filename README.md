@@ -11,9 +11,9 @@
 
 ## インストール
 
-1. このリポジトリをダウンロードまたはクローン。
+1. [Releases](https://github.com/XIpher-Desco/blender-addon-xi-measure/releases) から最新の `xi-measure-addon.zip` をダウンロード。
 2. BlenderでEdit > Preferences > Add-onsを開く。
-3. "Install..."をクリックし、`__init__.py`を含むフォルダを選択。
+3. "Install..."をクリックし、ダウンロードしたzipファイルを選択。
 4. アドオン"XI Measure"を有効化。
 
 ## 使用方法
