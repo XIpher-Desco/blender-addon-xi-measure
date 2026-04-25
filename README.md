@@ -23,6 +23,10 @@ This Blender addon measures the distance between two selected vertices in Edit M
 3. The distances will automatically appear in the N-panel > Tool tab > XI Measure.
 4. Click "Copy" next to each value to copy individually, or "Copy All" for the full set.
 
+## Screenshots
+
+![Usage Example](img/image.png)
+
 ## Notes
 
 - Only works when exactly two vertices are selected.
